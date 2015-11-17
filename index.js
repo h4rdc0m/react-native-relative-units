@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react-native');
-var Dimensions = require('Dimensions');
+var {Dimensions} = React;
 var dimensions = Dimensions.get('window');
 
 function Units(baseSize) {
